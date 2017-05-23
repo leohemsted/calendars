@@ -22,7 +22,7 @@ gem 'uglifier', '2.7.2'
 if ENV['SLIMMER_DEV']
   gem 'slimmer', path: '../slimmer'
 else
-  gem 'slimmer', '10.1.1'
+  gem 'slimmer', '11.0.0'
 end
 
 if ENV['API_DEV']
@@ -46,4 +46,5 @@ group :test do
   gem 'capybara', '2.6.2'
   gem 'timecop', '0.8.0'
   gem 'govuk-content-schema-test-helpers', '~> 1.4.0'
+  gem 'rails-controller-testing'
 end
